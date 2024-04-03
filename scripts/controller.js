@@ -74,6 +74,7 @@ class Controller {
 
   clearResultDisplay() {
     elements.resultDisplay.innerHTML = "";
+    console.log('teste')
   }
 
   // inicializar botão de limpeza
