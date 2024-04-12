@@ -64,7 +64,7 @@ h1 {
   grid-template-columns: 20%;
   grid-template-rows: 20%;
   grid-template-areas:
-    "hidden hidden hidden equal"
+    "equal equal equal equal"
     "7 8 9 add"
     "4 5 6 minus"
     "1 2 3 multiplication"
@@ -133,11 +133,6 @@ h1 {
 }
 #point {
   grid-area: point;
-}
-.hidden {
-  grid-area: hidden;
-  color: transparent;
-  background-color: transparent;
 }
 
 .read-the-docs {

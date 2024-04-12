@@ -18,11 +18,6 @@ class Controller {
         this.displayString = "";
         console.log("1");
       }
-      // if (this.flagOperation != "") {
-      //   if(this.displayString.includes('.')) return
-      //   this.displayString = "";
-      //   console.log("2");
-      // }
       this.displayString += digit;
       elements.display.innerHTML = this.displayString;
     }
@@ -74,9 +69,6 @@ class Controller {
 
   clearResultDisplay() {
     elements.resultDisplay.innerHTML = "";
-    console.log('teste')
-    console.log('teste 2')
-    console.log('teste 3')
   }
 
   // inicializar botão de limpeza
@@ -176,5 +168,6 @@ class Controller {
     this.setupEqualButton();
   }
 }
+
 
 export { Controller };
